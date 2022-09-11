@@ -10,4 +10,4 @@ export const Comment = ({ comment }) => (
     <p>{comment.body}</p>
   </aside>
 )
-//lalala lalala
+//lalala lalala 1
