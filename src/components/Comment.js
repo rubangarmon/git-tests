@@ -1,5 +1,6 @@
 import React from 'react'
 //test comment
+// another comment and continue with the branch
 export const Comment = ({ comment }) => (
 
   <aside className="comment">
