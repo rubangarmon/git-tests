@@ -1,5 +1,5 @@
 import React from 'react'
-
+//test comment
 export const Comment = ({ comment }) => (
 
   <aside className="comment">
