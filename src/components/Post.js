@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Post = ({ post, excerpt }) => (
   <article className={excerpt ? 'post-excerpt' : 'post'}>
-    <h2>{post.title}</h2>
+    <h2>{post.title} - With no name</h2>
     <p>{excerpt ? post.body.substring(0, 100) : post.body}</p>
 
     {excerpt && (
