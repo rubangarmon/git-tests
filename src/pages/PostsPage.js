@@ -12,7 +12,7 @@ const PostsPage = () => {
     }, [dispatch])
 
     const renderPosts = () => {
-        if (loading) return <p>Loading posts</p>
+        if (loading) return <p>Loading posts... Please Wait... Akane</p>
         if (hasErrors) return <p>Unable to display posts.</p>
         return posts.map(post => <Post key={post.id} post={post} excerpt/>)
     }
